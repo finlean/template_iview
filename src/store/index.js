@@ -4,8 +4,8 @@ import mutations from './mutations';
 
 Vue.use(Vuex);
 export default new Vuex.Store({
-  state: {
-    loading: false
-  },
-  mutations
+    state: {
+        loading: false
+    },
+    mutations
 });
