@@ -20,5 +20,6 @@
 
 ## 使用方式
 
-1. 先`npm install`
-1. 后`npm run dev`
+1. 先安装纷领脚手架[finlean-cli](https://www.npmjs.com/package/finlean-cli)：`npm i -g finlean-cli`
+1. `f -V`：查看版本号，确保安装成功
+1. `f i`：根据提示，选择版本`pc`即可
