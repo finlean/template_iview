@@ -269,5 +269,14 @@ export default {
             sum = 0;
         }
         return iccid + sum === initCard;
+    },
+    // 将地址参数转为对象
+    parseQuery(query) {
+        let reg = /([^=&\s]+)[=\s]*([^&\s]*)/g;
+        let obj = {};
+        while (reg.exec(query)) {
+            obj[RegExp.$1] = RegExp.$2;
+        }
+        return obj;
     }
 };
