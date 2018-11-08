@@ -4,9 +4,12 @@ import router from './router';
 import store from './store';
 import tool from './tool';
 import api from './api';
+import iView from 'iview';
+import 'iview/dist/styles/iview.css';
 
 Vue.use(api);
 Vue.use(tool);
+Vue.use(iView);
 
 const prefix = 'scene_';
 Vue.prototype.$getItem = key => {

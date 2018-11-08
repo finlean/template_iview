@@ -1,6 +1,8 @@
 <template>
     <div class="test">
-        我是PC版
+        我是iView UI
+        <Icon type="ios-american-football" />
+        <Button type="success">iView UI</Button>
     </div>
 </template>
 

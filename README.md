@@ -1,14 +1,14 @@
-# Vue 项目模板--PC 版
+# Vue 项目模板--iView
 
 ## 已有配置
 
-1. `vue-router`：路由文件也进行了封装，具体请看`router文件`
+1. `vue-router`：路由文件进行了封装，具体请看`router文件`
 1. `vuex`：Vue 的状态管理模式，具体请看`store文件`
-1. `less`
+1. `less`：CSS 预处理器
+1. `iView`：UI框架
 
 ## 未有配置
 
-1. `PC端UI组件`，如有需要请自行安装
 1. `接口验签`，后续开发中补上
 
 ## 已有插件
@@ -21,4 +21,4 @@
 
 1. 先安装脚手架[hzq-cli](https://www.npmjs.com/package/hzq-cli)：`npm i -g hzq-cli`
 1. `h -V`：查看版本号，确保安装成功
-1. `h i`：根据提示，选择版本`pc`即可
+1. `h i`：根据提示，选择UI框架`iview`即可
